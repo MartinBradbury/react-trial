@@ -7,12 +7,15 @@ import StatefulTest from './components/StatefulTest';
 
 function App() {
   return (
+    <>
     <div className="App">
       {/* <FunctionalGreetingNew name="Martin" age="41" greeting="Nice to meet you!!" /> */}
       <StatefulGreeting greeting="This is a little test" name="Martin" />
       <NewTest sex="female" game="wow" />
       <StatefulTest pet="dog" iq="69" sex="male"/>
     </div>
+    <StatefulGreeting />
+    </>
   );
 }
 
