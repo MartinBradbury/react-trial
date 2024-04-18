@@ -12,6 +12,9 @@ function App() {
       {/* <FunctionalGreetingNew name="Martin" age="41" greeting="Nice to meet you!!" /> */}
       <StatefulGreeting greeting="This is a little test" name="Martin" />
     </div>
+    <div>
+      <StatefulTest />
+    </div>
     </>
   );
 }
