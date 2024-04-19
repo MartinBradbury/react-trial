@@ -9,6 +9,11 @@ import AnotherUser from './components/AnotherUser';
 import NewComp from './components/NewComp';
 import Test from './components/Test';
 import BeepOne from './components/BeepOne';
+import EventsClass from './components/EventsClass';
+import EventsFunctional from './components/EventsFunctional';
+
+
+
 
 function App() {
   return (
@@ -20,6 +25,8 @@ function App() {
       <NewComp /> */}
       {/* <Test /> */}
       <BeepOne />
+      <EventsClass />
+      <EventsFunctional />
     </div>
     </>
   );

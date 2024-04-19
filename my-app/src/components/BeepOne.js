@@ -10,7 +10,7 @@ export class BeepOne extends Component {
       }
     }
   
-    myBeep() {
+    myBeep = () => {
         this.setState((prevState) => ({
             intro: prevState.intro === "Beep, Beep" ? "Bang, Bang" : "Beep, Beep",
             buttonText: prevState.buttonText === "Honk" ? "Beep" : "Honk",
@@ -20,7 +20,7 @@ export class BeepOne extends Component {
         });
     }
 
-    clickCount () {
+    clickCount = () => {
         this.setState((prevState) => ({
             counter: prevState.counter + 6 /2,
         }), () => {
@@ -32,8 +32,8 @@ export class BeepOne extends Component {
     return (
       <div>
         <h1>This is a Beep {this.state.intro}</h1>
-        <button onClick={() => this.myBeep()}>{this.state.buttonText}</button>
-        <button onClick={() => this.clickCount()}>I have been beeped {this.state.counter} times.</button>
+        <button onClick={this.myBeep}>{this.state.buttonText}</button>
+        <button onClick={this.clickCount}>I have been beeped {this.state.counter} times.</button>
       </div>
     )
   }
