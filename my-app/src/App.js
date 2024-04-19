@@ -8,6 +8,7 @@ import UserState from './components/UserState';
 import AnotherUser from './components/AnotherUser';
 import NewComp from './components/NewComp';
 import Test from './components/Test';
+import BeepOne from './components/BeepOne';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       <UserState name="Martin" />
       <AnotherUser />
       <NewComp /> */}
-      <Test />
+      {/* <Test /> */}
+      <BeepOne />
     </div>
     </>
   );

@@ -28,13 +28,6 @@ export class Test extends Component {
             console.log(this.state.counter)
         });
     }
-
-
-
-
-
-
-
   render() {
     return (
       <div>
