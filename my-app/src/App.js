@@ -4,13 +4,14 @@ import FunctionalGreetingNew from './components/FunctionalGreetingNew';
 import StatefulGreeting from './components/StatefulGreeting';
 import NewTest from './components/test';
 import StatefulTest from './components/StatefulTest';
+import UserState from './components/UserState';
 
 function App() {
   return (
     <>
     <div className="App">
-      {/* <FunctionalGreetingNew name="Martin" age="41" greeting="Nice to meet you!!" /> */}
       <StatefulGreeting greeting="This is a little test" name="Martin" />
+      <UserState name="Martin" />
     </div>
     </>
   );
