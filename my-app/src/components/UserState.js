@@ -11,12 +11,10 @@ class UserState extends React.Component {
     }
 
     myClick() {
-        this.setState((prevState, prevProps) => {
-            return {
+        this.setState((prevState, prevProps) => ({
                 intro: prevState.intro === "Welcome" ? "Hello friend" : "Welcome",
                 button: prevState.button === "Enter" ? "Exit" : "Enter",
-            };
-        }, () => {
+        }), () => {
             console.log(this.state.intro);
         });
     }
@@ -24,13 +22,8 @@ class UserState extends React.Component {
     number() {
         this.setState(prevState => ({
             counter: prevState.counter + 1,
-        }), () => {
-            console.log(this.state.counter);
-        });
+        }))
     }
-
-
-
 
 
     render() {

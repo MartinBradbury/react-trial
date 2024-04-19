@@ -5,6 +5,7 @@ import StatefulGreeting from './components/StatefulGreeting';
 import NewTest from './components/test';
 import StatefulTest from './components/StatefulTest';
 import UserState from './components/UserState';
+import AnotherUser from './components/AnotherUser';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <div className="App">
       <StatefulGreeting greeting="This is a little test" name="Martin" />
       <UserState name="Martin" />
+      <AnotherUser />
     </div>
     </>
   );
