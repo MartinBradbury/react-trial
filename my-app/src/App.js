@@ -11,6 +11,7 @@ import Test from './components/Test';
 import BeepOne from './components/BeepOne';
 import EventsClass from './components/EventsClass';
 import EventsFunctional from './components/EventsFunctional';
+import FinalComponent from './components/FinalComponent';
 
 
 
@@ -24,9 +25,10 @@ function App() {
       <AnotherUser />
       <NewComp /> */}
       {/* <Test /> */}
-      <BeepOne />
+      {/* <BeepOne />
       <EventsClass />
-      <EventsFunctional />
+      <EventsFunctional /> */}
+      <FinalComponent />
     </div>
     </>
   );
