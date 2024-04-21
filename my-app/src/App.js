@@ -32,6 +32,7 @@ function App() {
       {/* <FinalComponent /> */}
       <Stateful />
       <EventsFunctional loggedIn={false} />
+      <FunctionalGreetingNew addUser={true} />
 
     </div>
     </>
