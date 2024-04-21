@@ -12,6 +12,7 @@ import BeepOne from './components/BeepOne';
 import EventsClass from './components/EventsClass';
 import EventsFunctional from './components/EventsFunctional';
 import FinalComponent from './components/FinalComponent';
+import Stateful from './components/Stateful';
 
 
 
@@ -28,7 +29,9 @@ function App() {
       {/* <BeepOne />
       <EventsClass />
       <EventsFunctional /> */}
-      <FinalComponent />
+      {/* <FinalComponent /> */}
+      <Stateful />
+
     </div>
     </>
   );

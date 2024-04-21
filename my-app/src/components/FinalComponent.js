@@ -28,11 +28,6 @@ export class FinalComponent extends Component {
         })
     }
 
-    
-
-
-
-
   render() {
     return (
       <div>
