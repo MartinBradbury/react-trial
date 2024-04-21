@@ -31,6 +31,7 @@ function App() {
       <EventsFunctional /> */}
       {/* <FinalComponent /> */}
       <Stateful />
+      <EventsFunctional loggedIn={false} />
 
     </div>
     </>
