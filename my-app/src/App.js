@@ -33,6 +33,8 @@ function App() {
       <Stateful />
       <EventsFunctional loggedIn={false} />
       <FunctionalGreetingNew addUser={true} />
+      <BeepOne />
+
 
     </div>
     </>
