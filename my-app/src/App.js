@@ -14,6 +14,9 @@ import EventsFunctional from './components/EventsFunctional';
 import FinalComponent from './components/FinalComponent';
 import Stateful from './components/Stateful';
 import FunctComp from './components/FunctComp';
+import ClassConditional from './components/ClassConditional';
+import NestingComponents from './components/NestingComponent';
+import UsrMsg from './components/UsrMsg';
 
 
 
@@ -35,8 +38,10 @@ function App() {
       <EventsFunctional loggedIn={false} />
       <FunctionalGreetingNew addUser={true} />
       <BeepOne /> */}
-      <FinalComponent />
-      <FunctComp loggedIn={true} />
+      {/* <FinalComponent />
+      <FunctComp loggedIn={true} /> */}
+      {/* <ClassConditional /> */}
+      <NestingComponents />
 
 
     </div>
