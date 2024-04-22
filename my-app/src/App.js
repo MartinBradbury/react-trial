@@ -13,6 +13,7 @@ import EventsClass from './components/EventsClass';
 import EventsFunctional from './components/EventsFunctional';
 import FinalComponent from './components/FinalComponent';
 import Stateful from './components/Stateful';
+import FunctComp from './components/FunctComp';
 
 
 
@@ -30,10 +31,12 @@ function App() {
       <EventsClass />
       <EventsFunctional /> */}
       {/* <FinalComponent /> */}
-      <Stateful />
+      {/* <Stateful />
       <EventsFunctional loggedIn={false} />
       <FunctionalGreetingNew addUser={true} />
-      <BeepOne />
+      <BeepOne /> */}
+      <FinalComponent />
+      <FunctComp loggedIn={true} />
 
 
     </div>

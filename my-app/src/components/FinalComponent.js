@@ -7,6 +7,7 @@ export class FinalComponent extends Component {
          intro: "Welcome",
          buttonText: "Enter",
          counter: 0,
+         loggedIn: false,
       };
     }
 
@@ -14,6 +15,7 @@ export class FinalComponent extends Component {
         this.setState((prevState) => ({
             intro: prevState.intro === "Welcome" ? "Goodbye" : "Welcome",
             buttonText: prevState.buttonText === "Enter" ? "Exit" : "Enter",
+            loggedIn: prevState.loggedIn === false ? true : false,
         }), () => {
             console.log(this.state.intro);
             console.log(this.state.buttonText);
@@ -34,6 +36,15 @@ export class FinalComponent extends Component {
         <h1>{this.state.intro}</h1>
         <button onClick={this.myClick}>{this.state.buttonText}</button>
         <button onClick={this.counter}>{this.state.counter}</button>
+        {this.state.loggedIn ? (
+            <div>
+              <h1>I am Logged in</h1>
+            </div>
+        ) : (
+          <div>
+            <h1>I am not logged in</h1>
+          </div>
+        )}
       </div>
     )
   }
