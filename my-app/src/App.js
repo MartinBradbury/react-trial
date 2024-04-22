@@ -17,6 +17,7 @@ import FunctComp from './components/FunctComp';
 import ClassConditional from './components/ClassConditional';
 import NestingComponents from './components/NestingComponent';
 import UsrMsg from './components/UsrMsg';
+import MethodsAsPropsParent from './components/MethodAsPropsParents';
 
 
 
@@ -41,8 +42,8 @@ function App() {
       {/* <FinalComponent />
       <FunctComp loggedIn={true} /> */}
       {/* <ClassConditional /> */}
-      <NestingComponents />
-
+      {/* <NestingComponents /> */}
+      <MethodsAsPropsParent />
 
     </div>
     </>
