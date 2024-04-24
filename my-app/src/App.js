@@ -18,6 +18,8 @@ import ClassConditional from './components/ClassConditional';
 import NestingComponents from './components/NestingComponent';
 import UsrMsg from './components/UsrMsg';
 import MethodsAsPropsParent from './components/MethodAsPropsParents';
+import RenderingLists from './components/RenderingLists';
+import RenderingListPracParent from './components/RenderingListPracParent';
 
 
 
@@ -43,7 +45,9 @@ function App() {
       <FunctComp loggedIn={true} /> */}
       {/* <ClassConditional /> */}
       {/* <NestingComponents /> */}
-      <MethodsAsPropsParent />
+      {/* <MethodsAsPropsParent /> */}
+      {/* <RenderingLists /> */}
+      <RenderingListPracParent />
 
     </div>
     </>
