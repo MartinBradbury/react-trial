@@ -8,6 +8,7 @@ function RenderingListPracChild(props) {
         <h5>{char.character}</h5>
         <p>{char.faction}</p>
         <p>{char.age}</p>
+        <hr />
     </div>
   )
 }

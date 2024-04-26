@@ -20,7 +20,9 @@ import UsrMsg from './components/UsrMsg';
 import MethodsAsPropsParent from './components/MethodAsPropsParents';
 import RenderingLists from './components/RenderingLists';
 import RenderingListPracParent from './components/RenderingListPracParent';
-
+import RendListP from './components/RendListP';
+import RendLiP from './components/RendLiP';
+import Content from './components/Content';
 
 
 
@@ -47,7 +49,10 @@ function App() {
       {/* <NestingComponents /> */}
       {/* <MethodsAsPropsParent /> */}
       {/* <RenderingLists /> */}
-      <RenderingListPracParent />
+      {/* <RenderingListPracParent /> */}
+      {/* <RendListP /> */}
+      {/* <RendLiP /> */}
+      <Content />
 
     </div>
     </>
